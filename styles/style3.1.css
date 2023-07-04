@@ -1,0 +1,31 @@
+.a1{
+    float:left;
+    width: 297px;
+    height: 349px;
+    border: 2px;
+    margin-bottom: 30cm;
+}  
+.a2{
+  color:black;
+  line-height: 1.5;
+ 
+}
+pre{
+  font-family: 宋体;
+  color:black
+}
+body{
+  background-color:rgb(224, 208, 188);
+}
+.content-left{
+  line-height: 2;
+  float: left;
+  padding: 20px;
+  font-size: 18px;
+}
+.content-right{
+  line-height: 2;
+  float: right;
+  padding: 20px;
+  font-size: 18px;  
+}

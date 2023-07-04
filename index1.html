@@ -1,0 +1,38 @@
+<!--第一步，新建一个文件夹“mysite”作为网站根目录；
+第二步，在根目录下，新建文件夹images，在里面放几张需要使用的图片；
+第三步，在根目录下，新建一个文件交css，在里面新建文件style.css；
+第四步，在根目录下，新建文件index.html，并让文件index.html与style.css关联；
+第五步，在网页index.html采用div+css方法进行布局好，逐步完善好网页布局、内容、效果。
+第六步，重复第五步，开发好另外两个网页，到达主题统一、设计合理、外观漂亮。-->
+<html>
+    <head>
+        <title>大作业设计</title>
+        <link rel="stylesheet" href="styles/style1.css">    
+    </head>
+    </br>
+    <h1><center>学校图书网</center></h1>
+    <body>
+    </br>
+      <form name="form1"method="post"action="">
+        <table width="220"border="1"align="center"height="50">
+            <tr>
+                <td bgcolor="#00CCCC">学号</td>
+                <td><input type="text" name="usernumer"value="请输入学号"/></td>
+            </tr>    
+           <tr>
+              <td bgcolor="#00CCCC">密码</td>
+              <td><input type="passpword" name="usepassword" maxlength="20"value="请输入密码"/></td>
+           </tr></table>
+        <table width="100" border="1"align="center">
+            <tr>
+                <td>
+                    <input name="b1"type="button"id="b1"value="登录" onClick="window.open('index3.html')">
+                </td>
+                <td>
+                    <input name="b1"type="button"id="b2"value="注册" onClick="window.open('index2.html')">                 
+                </td>
+            </tr>
+        </table>  
+      </form>
+    </body>
+</html>

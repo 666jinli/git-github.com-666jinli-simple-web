@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>大作业设计</title>
+        <script language=javascript>
+        function rec(){
+            alert("注册成功")
+        }
+        function rec(){
+            alert("重置成功")
+        }
+            </script>
+        <link rel="stylesheet" href="styles/style2.css">         
+    </head>
+    <body>
+        <p align="center"><font size="6"><b>信息注册</b></font></p>
+        <from name="from1"method="post"action="">
+            <table width="800"border="1"align="center">
+            <tr>
+                <td>姓名</td>
+                <td><input type="text" name="username"/>
+                </td>
+                <td>学号</td>
+                <td><input type="text" name="userumber"/>
+                </td>
+                <td>
+                        <label>男
+                        <input name="sex" type="radio" value="男"/></label>
+                        <label>女 
+                        <input name="sex" type="radio" value="女"/>
+                        </label>               
+               </td>
+                <td>
+                        <label>
+                            <select name="edu">
+                                <option value="a">本科</option>
+                                <option value="b">研究生</option>
+                                <option value="c">博士</option>
+                            </select>
+                        </label>
+                </td>
+            </tr>
+            <tr>   
+                <td>密码</td>
+             <td><input type="passpword" name="usepassword" maxlength="20"/></td>
+            <td>入学时间</td>
+            <td>
+                <label>
+                    <select name="time">
+                        <option value="1">2018</option>
+                        <option value="1">2019</option>
+                        <option value="1">2020</option>
+                        <option value="1">2021</option>
+                        <option value="1">2022</option>
+                    </select>
+                </label>
+            </td>
+            <td>电话号码</td>
+            <td>
+                <input type="number">
+            </td>
+            </tr>
+         </table>
+         
+        <table width="100"border="1"align="center">
+            <tr>
+            <td align="center">
+               <input name="a1" type="submit"value="注册"onClick="rec();">
+               <input name="a2"type="reset"value="重置"onClick="rec1();">
+           </td>
+           </tr>
+        </table>
+
+    </from>
+    <p><a href="index1.html ">返回登录</a></p>
+    </body>
